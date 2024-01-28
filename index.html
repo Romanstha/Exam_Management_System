@@ -1,55 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
-   <head>
-      <meta charset="utf-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1">
-      <title>Exam Management System</title>
-      <!-- Google Font: Source Sans Pro -->
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
-      <!-- Font Awesome -->
-      <link rel="stylesheet" href="asset/fontawesome/css/all.min.css">
-      <!-- Theme style -->
-      <link rel="stylesheet" href="asset/css/adminlte.min.css">
-   </head>
-   <body class="hold-transition login-page">
-      <div class="login-box">
-         <!-- /.login-logo -->
-         <div class="card card-outline card-success">
-            <div class="card-header text-center">
-               <a href="index.html" class="brand-link">
-               <img src="asset/img/login.png" alt="DSMS Logo" width="200">
-               </a>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Exam Management System</title>
+    <!-- Google Font: Source Sans Pro -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback"
+    />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="asset/fontawesome/css/all.min.css" />
+    <!-- Theme style -->
+    <link rel="stylesheet" href="asset/css/adminlte.min.css" />
+  </head>
+  <body class="hold-transition login-page">
+    <div class="login-box">
+      <!-- /.login-logo -->
+      <div class="card card-outline card-success">
+        <div class="card-header text-center">
+          <a href="index.html" class="brand-link">
+            <img src="asset/img/login.png" alt="DSMS Logo" width="200" />
+          </a>
+        </div>
+        <div class="card-body">
+          <form action="admin" method="post">
+            <div class="input-group mb-3">
+              <input type="text" class="form-control" placeholder="Username" />
+              <div class="input-group-append">
+                <div class="input-group-text">
+                  <span class="fas fa-user"></span>
+                </div>
+              </div>
             </div>
-            <div class="card-body" >
-               <form action="admin" method="post">
-                  <div class="input-group mb-3">
-                     <input type="text" class="form-control" placeholder="Username">
-                     <div class="input-group-append">
-                        <div class="input-group-text">
-                           <span class="fas fa-user"></span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="input-group mb-3">
-                     <input type="password" class="form-control" placeholder="Password">
-                     <div class="input-group-append">
-                        <div class="input-group-text">
-                           <span class="fas fa-lock"></span>
-                        </div>
-                     </div>
-                  </div>
-                  <div class="row">
-                    
-                     <div class="col-6 offset-3">
-                        <button type="submit" class="btn btn-block btn-bg" style="background-color: rgb(39,93,43);color: rgb(211, 209, 207);">Sign In</button>
-                     </div>
-                  </div>
-               </form>
+            <div class="input-group mb-3">
+              <input
+                type="password"
+                class="form-control"
+                placeholder="Password"
+              />
+              <div class="input-group-append">
+                <div class="input-group-text">
+                  <span class="fas fa-lock"></span>
+                </div>
+              </div>
             </div>
-            <!-- /.card-body -->
-         </div>
-         <!-- /.card -->
+            <div class="row">
+              <div class="col-6 offset-3">
+                <button
+                  type="submit"
+                  class="btn btn-block btn-bg"
+                  style="
+                    background-color: rgb(39, 93, 43);
+                    color: rgb(255, 255, 254);
+                    font-style: italic;
+                  "
+                >
+                  Sign In
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+        <!-- /.card-body -->
       </div>
-      <!-- /.login-box -->
-   </body>
+      <!-- /.card -->
+    </div>
+    <!-- /.login-box -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="row mt-3">
+          <div class="col-12 text-center">
+            <a href="https://www.facebook.com/">
+              <i class="fab fa-facebook-square fa-2x"></i>
+            </a>
+            <a href="https://www.instagram.com/">
+              <i class="fab fa-instagram-square fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/">
+              <i class="fab fa-twitter-square fa-2x"></i>
+            </a>
+            <a href="https://www.linkedin.com/">
+              <i class="fab fa-linkedin fa-2x"></i>
+            </a>
+            <a href="https://www.youtube.com/">
+              <i class="fab fa-youtube-square fa-2x"></i>
+            </a>
+            <p>
+              &copy; 2024 Exam Management System. <br />All rights reserved.
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
